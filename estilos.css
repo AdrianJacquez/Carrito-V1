@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: rgb(141, 211, 255);
+}
+.fullConteiner {
+  display: flex;
+  flex-direction: column;
+}
+.conteiner {
+  margin-top: 5px;
+}
+#contenedor {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+#contFruta {
+  width: 33.333333%;
+  float: left;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+.card {
+  padding-top: 10px;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  background-color: rgb(42, 143, 202);
+}
+.card-title {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.btn {
+  border-radius: 10px;
+  width: 125px;
+  height: 30px;
+}
+.list-group-item {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1.2rem;
+}

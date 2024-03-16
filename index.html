@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="estilos.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jugando Con DOM</title>
+  </head>
+  <body>
+    <div class="fullConteiner">
+      <main class="container">
+        <div id="contenedor">
+          <article id="contFruta">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Frutilla 🍓</h5>
+                <button class="btn" data-fruta="frutilla">Agregar</button>
+              </div>
+            </div>
+          </article>
+          <article id="contFruta">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Banana 🍌</h5>
+                <button class="btn" data-fruta="banana">Agregar</button>
+              </div>
+            </div>
+          </article>
+          <article id="contFruta">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Manzana 🍏</h5>
+                <button class="btn" data-fruta="Manzana">Agregar</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </main>
+
+      <section class="container mt-3">
+        <ul class="list-group" id="carrito">
+          <!-- <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span class="lead">A list item</span>
+                <span class="badge bg-primary rounded-pill">14</span>
+            </li> -->
+        </ul>
+      </section>
+
+      <template id="template">
+        <li class="list-group-item">
+          <span class="lead">A list item</span>
+          <span class="rounded-pill">14</span>
+        </li>
+      </template>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
